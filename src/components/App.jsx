@@ -29,9 +29,11 @@ export default class App extends Component {
   componentDidMount() {
     try {
       const arrContacts = JSON.parse(localStorage.getItem(STORAGE_KEY));
-      this.setState({
-        contacts: arrContacts,
-      });
+      if (arrContacts) {
+        this.setState({
+          contacts: arrContacts,
+        });
+      }
     } catch (error) {
       console.log(error);
     }
