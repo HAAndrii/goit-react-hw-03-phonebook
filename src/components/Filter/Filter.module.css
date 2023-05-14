@@ -1,0 +1,15 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.filter_label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.filter_input {
+  padding: 5px;
+}

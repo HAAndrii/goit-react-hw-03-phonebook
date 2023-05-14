@@ -1,0 +1,37 @@
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.form_label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form_input {
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.form_btn {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: inherit;
+  font-weight: 600;
+  padding: 10px 25px;
+}
+
+.form_btn:focus,
+.form_btn:hover {
+  background-color: #45a049;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
